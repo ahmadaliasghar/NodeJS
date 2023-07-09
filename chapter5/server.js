@@ -12,6 +12,15 @@ myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName));
 const PORT = process.env.PORT || 3500;
 
 
+app.get('/hello(.html)?',(req,res,next)=>{
+console.log("attempt to load hello.html")
+next()
+}, (req, res)=> {
+    res.send("Hello Loaded")
+})
+
+// ^/ must begin with 
+// /$ must end with 
 app.get('^/$|/index(.html)?', (req, res)=> {
     // res.send("Hello World")
     // res.sendFile('./views/index.html', {root: __dirname})
