@@ -5,7 +5,7 @@ const data = []
 
 data.employees = require('./../../data/employeeData.json')
 
-router.route('/')
+router.route('/employees')
     .get((req,res)=> {
         res.json(data.employees)
     })
@@ -25,7 +25,7 @@ router.route('/')
         res.json({"id": req.body.id})
     })
 
-    router.route('/:id') 
+    router.route('/employees/:id') 
         .get((req, res) => {
             res.json({"id": req.params.id})
         })

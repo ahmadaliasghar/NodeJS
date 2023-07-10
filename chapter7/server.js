@@ -48,6 +48,7 @@ app.use("/subdir", express.static(path.join(__dirname, "/public")));
 
 app.use("/subdir", require("./routes/subdir"));
 app.use("/", require("./routes/root"));
+app.use("/api", require("./routes/api/employees"));
 
 // ^/ must begin with
 // /$ must end with
