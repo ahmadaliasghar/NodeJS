@@ -1,0 +1,16 @@
+20230711	21:10:25	9e4ffc5f-0366-4615-92d5-380940141c85	GET	undefined/
+20230711	21:10:26	0aa3c02b-689e-4935-930b-e5c00b30ceb6	GET	undefined/css/style.css
+20230711	21:28:27	22cac7a6-1d99-4b77-85bd-6e1d71f129c8	POST	undefined/api/employees
+20230711	21:29:11	4277b72d-d303-43d1-b463-242f4aa65a86	POST	undefined/api/employees
+20230711	21:55:53	fa2d4cd6-c251-432a-9e8c-b6bb39ecfdcd	POST	undefined/api/employees
+20230711	21:56:07	723e40eb-97c5-46ef-b576-6519183f2547	POST	undefined/api/employees
+20230711	21:56:50	2d086af0-abdd-41dd-96f4-abd8111b6dde	POST	undefined/api/employees
+20230711	21:56:55	c4ce4a5c-c531-441d-a286-c70e81627bf7	POST	undefined/api/employees
+20230711	21:57:01	40de956d-09d3-44ee-810a-1a2021b59f30	POST	undefined/api/employees
+20230711	21:57:48	cd542de8-6e6f-4bbc-b16d-1165df010045	POST	undefined/api/employees
+20230711	22:03:25	8288fd5a-e80b-4812-ae39-e3b660676016	POST	undefined/api/employees
+20230711	22:03:33	a0cc23ec-e992-4227-9be0-51c2a9afa1c5	POST	undefined/api/employees
+20230711	22:05:03	0a109616-bca2-49f9-818b-5d0e25bad798	POST	undefined/api/employees
+20230711	22:05:37	a6840f07-f6c8-49f2-b072-5e7335194494	POST	undefined/api/employees
+20230711	22:05:49	a3cc3805-fe64-48bd-8b79-7dba176d0954	POST	undefined/api/employees
+20230711	22:06:45	4b71bee6-1459-4793-a9fa-c0534ae6f09f	GET	undefined/api/employees
