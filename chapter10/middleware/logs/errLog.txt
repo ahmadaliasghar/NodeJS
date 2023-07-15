@@ -11,3 +11,15 @@
 20230711	22:03:25	6797b6d5-4d59-4a29-8047-ed378b22f432	ReferenceError: id is not defined
 20230711	22:03:33	fef45fd0-c31e-4902-9aa3-2234dee608cd	ReferenceError: id is not defined
 20230711	22:05:03	dd343da3-5a74-4b7d-91d9-3dbe9cafaadd	ReferenceError: employees is not defined
+20230715	17:26:25	9fe207c6-1d7e-44e7-9b4b-434ff3c1ac15	TypeError: allowedOrigins.indexOf is not a function
+20230715	17:27:32	c28dc116-6c50-47a0-9c31-a8ae120076ce	TypeError: allowedOrigins.indexOf is not a function
+20230715	17:28:14	4c7d4fd4-4484-4252-acc3-29dc273adf8a	TypeError: Cannot read properties of undefined (reading 'includes')
+20230715	17:28:51	487b42c6-66b0-4bfd-bb40-b330650a5c75	TypeError: Cannot read properties of undefined (reading 'includes')
+20230715	17:28:54	9e0573d6-b146-4b40-bbae-6997a60a0209	TypeError: Cannot read properties of undefined (reading 'includes')
+20230715	17:29:56	7cba211c-eb5a-445d-8a15-0cfc38e06955	TypeError: Cannot read properties of undefined (reading 'includes')
+20230715	17:30:56	630e8376-3c43-41de-a253-25d8b0b72827	TypeError: Cannot read properties of undefined (reading 'includes')
+20230715	17:31:06	0e50d724-95e4-47b7-b268-e552b6dc28c4	TypeError: Cannot read properties of undefined (reading 'includes')
+20230715	17:31:12	11bce715-b882-4d21-80d0-cf5955babebc	TypeError: Cannot read properties of undefined (reading 'includes')
+20230715	17:31:51	b9ee44a2-cebb-486a-8631-e29c7de496b4	TypeError: Cannot read properties of undefined (reading 'include')
+20230715	22:21:57	312880c7-dca4-40ae-bbe2-199ee0b75da3	TypeError: Cannot read properties of undefined (reading 'includes')
+20230715	22:22:28	39d7342e-cb7c-4532-8fac-edade5742f43	TypeError: Cannot read properties of undefined (reading 'indexOf')

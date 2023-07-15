@@ -8,6 +8,7 @@ const corOptions = require("./config/corOptions");
 const EventEmitter = require("events");
 const { logger } = require("./middleware/logEvents");
 const  verifyJWT  = require("./middleware/verifyJWTs");
+const  credentials  = require("./middleware/credentials");
 const cookieParser = require('cookie-parser')
 
 class Emitter extends EventEmitter {}
@@ -21,6 +22,7 @@ app.use(logger);
 
 app.use(cors(corOptions));
 
+app.use(credentials);
 // form data
 app.use(express.urlencoded({ extended: false }));
 
@@ -36,6 +38,7 @@ app.use("/api", require("./routes/api/employees"));
 app.use("/register", require('./routes/register'))
 app.use("/auth", require('./routes/auth'))
 app.use("/refresh", require('./routes/refresh'))
+app.use("/logout", require('./routes/logout'))
 app.use(verifyJWT)
 app.get("^/$|/index(.html)?", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));
